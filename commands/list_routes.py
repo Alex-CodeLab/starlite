@@ -1,11 +1,8 @@
-from typing import TYPE_CHECKING
-
 from cleo.commands.command import Command
 from cleo.helpers import argument
 from cleo.io.inputs import option
 
-if TYPE_CHECKING:
-    from starlite import Starlite
+from starlite import Starlite
 
 
 class ListRoutes(Command):  # type: ignore
