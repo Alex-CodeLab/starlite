@@ -15,7 +15,7 @@ class StartProject(Command):
     Create a new project
 
     startproject
-        {--template= : How many times should the message be printed?}
+        {--template= : zipfile, local or url }
     """
     name = "startproject"
     description = "Create a new project"
