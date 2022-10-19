@@ -1,7 +1,7 @@
 from cleo.application import Application
 from cleo.testers.command_tester import CommandTester
 
-from commands.list_routes import ListRoutes
+from commands.routes import ListRoutes
 from starlite import Starlite
 
 
